@@ -11,22 +11,20 @@ h2, p {
   }
 
   .hero-image {
-    background-image: url("/img/pexels-magda-ehlers-6364029.jpg");
+    background-image: url("/img/pallet-back-grd.jpg");
     height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    opacity: .9;
+    color: greenyellow;
   }
 
-  .container-1 {
-    border-radius: 5px;
-    background-color:none;
-    padding: 20px;
-  }
+ 
 
 .form-width {
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
 }
 
@@ -47,13 +45,14 @@ h2, p {
  }
 */
 /*for contact form*/
+
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid #3ca7bb;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
@@ -61,9 +60,15 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #3ca7bb;
+  color: cddcdf;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -71,8 +76,24 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #7abfb3;
   
 }
+.container-1 {
+  border-radius: 5px;
+  background-color: #cddcdf;
+  padding: 20px;
+}
+
+
+
+
+/* Color Theme Swatches in Hex */
+.color-theme_Greatdane-logo-1-hex { color: #3CA7BB; }
+.color-theme_Greatdane-logo-2-hex { color: #01141A; }
+.color-theme_Greatdane-logo-3-hex { color: #7ABFB3; }
+.color-theme_Greatdane-logo-4-hex { color: #CDDCDF; }
+.color-theme_Greatdane-logo-5-hex { color: #21826F; }
+
 
 
