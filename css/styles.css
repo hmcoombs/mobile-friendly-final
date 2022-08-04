@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Open+Sans&display=swap');
 
+""
 
-
-h1 {
+h1, label {
     font-family: lobster;
   }
   
-h2, h3, label, p {
-    font-family: cursive;
+h2, h3, h5, p {
+    font-family: open Sans;
   }
 
 nav {
   background-color: #7ABFB3;
   }
+
+.nav-item {
+  font-family: open Sans;
+}
 
   .hero-image {
     background-image: url("/img/pallet-back-grd.jpg");
@@ -52,11 +56,15 @@ nav {
   margin: auto;
 }
 
-.carousel-item 
+.carousel-item
 
 
 
+.footer a, .footer a:visited {
+  color: white;
+  text-decoration: none;
 
+}
 
 /*for contact form*/
 
@@ -64,7 +72,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
 
 #subject, #fname, #lname {
-  font-family: cursive;
+  font-family: open Sans;
 }
 
 input[type=text], select, textarea {
