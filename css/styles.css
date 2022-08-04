@@ -20,20 +20,20 @@ nav {
 
   .hero-image {
     background-image: url("/img/pallet-back-grd.jpg");
-    height: 200px;
+    height: 250px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    opacity: .9;
-    color: greenyellow;
+    opacity: .7;
+    color: #CDDCDF;
   }
 
   button {
     background-color: #3ca7bb;
     padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    border: solid color#01141A;
+    border-radius: 25px;
     cursor: pointer;
   }
 
