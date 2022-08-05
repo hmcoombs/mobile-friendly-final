@@ -3,7 +3,7 @@
 #firstcon {
   background-image: linear-gradient(to right, #cddcdf, #01141a, #3ca7bb, #7abfb3, #21826f, #7abfb3, #3ca7bb, #01141a, #cddcdf);
 }
-
+/* a try to corret sticky */
 html,
 body {
   height: 100%;
@@ -48,10 +48,11 @@ nav {
 }
 
 button {
-  background-color: #3ca7bb;
+  background-color: rgb(161, 218, 227);
   padding: 12px 20px;
-  border: solid color#01141A;
-  border-radius: 8px;
+  color: black;
+  border: 3px solid #01141A;
+  border-radius: 10% !important;
   cursor: pointer;
 }
 
