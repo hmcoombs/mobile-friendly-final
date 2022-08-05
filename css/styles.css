@@ -1,50 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Open+Sans&display=swap');
 
-""
+#firstcon {
+  background-image: linear-gradient(to right, #cddcdf,#01141a,#3ca7bb,#7abfb3,#21826f,#7abfb3,#3ca7bb,#01141a,#cddcdf);
+}
 
 h1, label {
-    font-family: lobster;
-  }
+  font-family: lobster;
+}
   
 h2, h3, h5, p {
-    font-family: open Sans;
-  }
+  font-family: open Sans;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px #01141A;
+}
 
 nav {
   background-color: #7ABFB3;
-  }
+}
 
 .nav-item {
   font-family: open Sans;
 }
 
-  .hero-image {
-    background-image: url("/img/pallet-back-grd.jpg");
-    height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    opacity: .7;
-    color: #CDDCDF;
-  }
+.hero-image {
+  background-image: url("/img/pallet-back-grd.jpg");
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: .6;
+  color: #3CA7BB;
+}
 
-  button {
-    background-color: #3ca7bb;
-    padding: 12px 20px;
-    border: solid color#01141A;
-    border-radius: 25px;
-    cursor: pointer;
-  }
+button {
+  background-color: #3ca7bb;
+  padding: 12px 20px;
+  border: solid color#01141A;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
-  button:hover {
-    background-color: #7abfb3;
-  }
+button:hover {
+  background-color: #7abfb3;
+}
 
-  .col-sm-6 {
-    background-color: #CDDCDF;
-    color: #01141A;
-  }
+#card-text {
+  text-decoration: none;
+}
+
+.col-sm-6 {
+  background-color: #CDDCDF;
+  color: #01141A;
+}
  
 #safety {
   background-color: #CDDCDF;
@@ -55,10 +65,6 @@ nav {
   max-width: 500px;
   margin: auto;
 }
-
-.carousel-item
-
-
 
 .footer a, .footer a:visited {
   color: white;
@@ -109,10 +115,15 @@ input[type=submit]:hover {
   background-color: #7ABFB3;
 }
 
+.footer1 {
+  background-color: #7ABFB3;
+}
+
 .container-2 {
   border-radius: 5px;
   padding: 0px;
 }
+
 
 /* Color Theme Swatches in Hex */
 .color-theme_Greatdane-logo-1-hex { color: #3CA7BB; }
