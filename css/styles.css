@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Open+Sans&display=swap');
 
 #firstcon {
-  background-image: linear-gradient(to right, #cddcdf,#01141a,#3ca7bb,#7abfb3,#21826f,#7abfb3,#3ca7bb,#01141a,#cddcdf);
+  background-image: linear-gradient(to right, #cddcdf, #01141a, #3ca7bb, #7abfb3, #21826f, #7abfb3, #3ca7bb, #01141a, #cddcdf);
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
-h1, label {
+h1,
+label {
   font-family: lobster;
 }
-  
+
 h2, h3, h5, p {
   font-family: open Sans;
 }
 
 h1, h2 {
-  text-shadow: 2px 2px #01141A;
+  text-shadow: 3px 3px #CDDCDF;
 }
 
 nav {
@@ -49,7 +51,7 @@ button {
   background-color: #3ca7bb;
   padding: 12px 20px;
   border: solid color#01141A;
-  border-radius: 10px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
@@ -65,8 +67,9 @@ button:hover {
   background-color: #CDDCDF;
   color: #01141A;
 }
- 
-#safety, #measure {
+
+#safety,
+#measure {
   background-color: #CDDCDF;
   color: #01141A;
 }
@@ -76,19 +79,20 @@ button:hover {
   margin: auto;
 }
 
-.footer a, .footer a:visited {
-  color: white;
-  text-decoration: none;
-
-}
-
 /*for contact form*/
 
-body {font-family:open sans;}
-* {box-sizing: border-box;}
+body {
+  font-family: open sans;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #3ca7bb;
@@ -110,8 +114,9 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #7abfb3;
-  
+
 }
+
 .container-1 {
   border-radius: 5px;
   background-color: #cddcdf;
@@ -123,22 +128,25 @@ input[type=submit]:hover {
 }
 
 .footer1 {
-  background-color: #7ABFB3;  
+  background-color: #7ABFB3;
+}
+
+.footer a,
+.footer a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 /* .container-2 { */
-  border-radius: 5px;
-  padding: 0px;
-  border: solid #01141A;
+border-radius: 5px;
+padding: 0px;
+border: solid #01141A;
 /* } */
 
 
 /* Color Theme Swatches in Hex */
-.color-theme_Greatdane-logo-1-hex { color: #3CA7BB; }
-.color-theme_Greatdane-logo-2-hex { color: #01141A; }
-.color-theme_Greatdane-logo-3-hex { color: #7ABFB3; }
-.color-theme_Greatdane-logo-4-hex { color: #CDDCDF; }
-.color-theme_Greatdane-logo-5-hex { color: #21826F; }
-
-
-
+.color-theme_Greatdane-logo-1-hex {  color: #3CA7BB;}
+.color-theme_Greatdane-logo-2-hex {  color: #01141A;}
+.color-theme_Greatdane-logo-3-hex {  color: #7ABFB3;}
+.color-theme_Greatdane-logo-4-hex {  color: #CDDCDF;}
+.color-theme_Greatdane-logo-5-hex {  color: #21826F;}
