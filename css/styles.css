@@ -34,7 +34,7 @@ nav {
 .nav-item {
   font-family: open Sans;
 }
-
+/* I do not know why this is not showing up online */
 .hero-image {
   background-image: url("/img/pallet-back-grd.jpg");
   height: 100%;
