@@ -44,7 +44,7 @@ nav {
   position: relative;
   opacity: .6;
   color: #3CA7BB;
-  border: soli #01141A;
+  /* border: solid #01141A; */
 }
 
 button {
