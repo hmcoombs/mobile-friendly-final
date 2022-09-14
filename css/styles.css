@@ -36,7 +36,7 @@ nav {
 }
 /* I do not know why this is not showing up online */
 .hero-image {
-  background-image: url("./img/palletbackgrd1.jpg");
+  background-image: url("../img/palletbackgrd1.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
